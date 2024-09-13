@@ -44,7 +44,7 @@ nav{
     height: 88px;
     background: #0B0A09;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     border: 1px solid #0B0A09;
 }
 .nav-logo{
@@ -61,7 +61,6 @@ nav{
 }
 .nav-pages{
     width: 443px;
-    margin-left: 360px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -86,6 +85,7 @@ nav{
     width: 100%;
     height: 100vh;
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     background-image: url("../images/Home.png");
     background-size: cover;
@@ -96,20 +96,23 @@ nav{
     max-width: 1920px;
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .cheat99{
     width: 473px;
     height: 144px;
+    margin-left: 200px;
+    margin-top: 239px;
 }
 .cheat99 img{
     width: 100%;
     object-fit: contain;
-    margin-top: 380px;
-    margin-left: 207px;
 }
 .nav-socialmedia{
     width: 123px;
     height: 250px;
+    position: absolute;
 }
 .nav-socialmedia img{
     width: 100%;
@@ -146,6 +149,7 @@ nav{
 .block2-contents{
     width: 401px;
     text-align: start;
+    padding: 15px;
 }
 .block2-contents h3{
     font-size: 36px;
@@ -441,13 +445,242 @@ footer{
     }
     .nav-logo img{
         padding: 15px;
+        height: 78px;
     }
     .nav-pages {
         width: 70%;
         display: flex;
         justify-content: end;
         align-items: center;
+        margin-left: 0px;
     }
+    /* block 1 */
+    .cheat99 {
+        width: 296px;
+        height: 232px;
+        margin-left: 20%;
+        margin-top: 239px;
+    }
+    .nav-socialmedia {
+        width: 75px;
+        height: 298px;
+        position: absolute;
+        left: -10px;
+    }
+    /* block 2 */
+    .block2-contents{
+        width: 50%;
+        padding:15px;
+    }
+    .block2-contents h3 {
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .block2-contents p {
+        font-size: 12px;
+        line-height: 14px;
+        color: #9D9895;
+        margin-top: 20px;
+    }
+    .block2-contant-sec2 button{
+        width: 160px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .block2-img{
+        width: 50%;
+    }
+    .block2-img img {
+        width: 90%;
+        object-fit: contain;
+    }
+    /* block 3 */
+    .block3-container h3 {
+        font-size: 30px;
+    }
+    .block3-slider{
+        overflow: hidden;
+    }
+    .block3-card-btn button{
+        width: 160px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .block3-card-unblr {
+        width: 200px;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .block3-card-unblr img{
+        width: 200px;
+    }
+    .block3-card {
+        width: 180px;
+    }
+    .block3-card img {
+        width: 180px;
+        height: auto;
+        object-fit: contain;
+    }
+    /* block4 */
+    .block4-headset-img img{
+        width: 280px;
+    }
+    .block4-headset-container button{
+        z-index: 2;
+        width: 127px;
+        height: 41px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .tooltip1{
+        margin-top: 263px;
+        margin-right: 0px;
+        margin-left: 101px;
+    }
+    .tooltip1 img{
+        height: 22px;
+        margin-left: -76px;
+        margin-top: 19px;
+    }
+    .tooltip2{
+        margin-top: 156px;
+        margin-right: 238px;
+    }
+    .tooltip2 img{
+        height: 22px;
+        margin-left: 123px;
+        margin-top: 21px;
+    }
+    .tooltip3{
+        margin-top: 61px;
+        margin-left: 0px;
+        margin-right: 100px;
+    }
+    .tooltip3 img{
+        height: 22px;
+        margin-top: 19px;
+        margin-left: 216px;
+    }
+    .tooltip4{
+        margin-top: 191px;
+        margin-left: 208px;
+    }
+    .tooltip4 img{
+        height: 22px;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    .tooltip4 button {
+        z-index: 2;
+        margin-left: 89px;
+    }
+    .desktop-tooltip{
+        display: none;
+    }
+    .mobile-tooltip{
+        display: inline;
+    }
+    /* .tooltip1{
+        margin-top: 250px;
+        margin-right: 393px;
+    }
+    .tooltip1 img {
+        height: 22px;
+        margin-left: 119px;
+        margin-top: 25px;
+    }
+    .tooltip2{
+        margin-top: 121px;
+        margin-right: 251px;
+    }
+    .tooltip2 img {
+        height: 22px;
+        margin-left: 119px;
+        margin-top: 25px;
+    }
+    .tooltip3 {
+        margin-top: 100px;
+        margin-left: 361px;
+    }
+    .tooltip3 img {
+        height: 22px;
+        margin-top: 24px;
+        margin-left: 30px;
+    }
+    .tooltip4 {
+        margin-top: 200px;
+        margin-left: 97px;
+    }
+    .tooltip4 img {
+        height: 22px;
+        margin-top: 24px;
+        margin-left: 114px;
+    } */
+    /* block 5 */
+    .block5{
+        height: 255px;
+    }
+    .block-container-split {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    /* footer */
+    .footer-container{
+        padding: 64px 15px;
+        height: 606px;
+    }
+    .footer-logo{
+        display: block;
+    }
+    .footer-group{
+        flex-wrap: wrap;
+    }
+    .copyrignt2{
+        display: block;
+    }
+    .copyrignt1{
+        display: none;
+    }
+    .footer-logo img{
+        width: 34px;
+        height: 30px;
+        object-fit: contain;
+    }
+    .footer-form{
+        display: block;
+        height: 128px;
+        padding: 0 15px;
+    }
+    .footer-form-content{
+        position: relative;
+        width: 100%;
+        height: 56px;
+    }
+    .footer-contents-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-top: 90px;
+    }
+    .footer-form button {
+        margin: 10px 0 0 0;
+        width: 100%;
+        font-size: 15px;
+    }
+    .footer-social{
+        text-align: center;
+    }
+    .footer-copyright{
+        margin-top: 67px;
+    }
+    
 }
 @media (max-width:435px){
     /* navber */
@@ -483,6 +716,7 @@ footer{
     /* block1 */
     .block1{
         background-image: none;
+        margin-top: 0px;
     }
     .home-container{
         height: 100vh;
@@ -578,6 +812,9 @@ footer{
     .block3{
         height: 540px;
     }
+    .block3-container{
+        overflow: hidden;
+    }
     .block3-container h3 {
         font-size: 20px;
         line-height: 30px;
@@ -589,8 +826,8 @@ footer{
     .block3-slider{
         height: 262px;
     }
-    .block3-card img{
-        width: 100%;
+    .block3-card img {
+        width: 180px;
         height: 191px;
         object-fit: contain;
     }
