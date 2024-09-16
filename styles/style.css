@@ -443,6 +443,9 @@ footer{
         height: 78px;
         margin-left: 0px;
     }
+    .nav-pages a {
+        font-size: 13px;
+    }
     .nav-logo img{
         padding: 15px;
         height: 78px;
