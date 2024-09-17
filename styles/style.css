@@ -16,7 +16,7 @@ body{
     border: 0px;
     color: #fff;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +37,12 @@ nav{
     position: fixed;
     top: 0;
     z-index: 5;
+}
+.nav-header{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
 }
 .nav-container{
     max-width: 1440px;
@@ -102,7 +108,7 @@ nav{
 .cheat99{
     width: 473px;
     height: 144px;
-    margin-left: 200px;
+    margin-left: 270px;
     margin-top: 239px;
 }
 .cheat99 img{
@@ -111,7 +117,7 @@ nav{
 }
 .nav-socialmedia{
     width: 123px;
-    height: 250px;
+    height: 292px;
     position: absolute;
 }
 .nav-socialmedia img{
@@ -436,12 +442,28 @@ footer{
     object-fit: contain;
     margin: 32px 0 0 10px;
 }
+@media (min-width:771px) and (max-width:1024px){
+    .cheat99 {
+        width: 350px;
+        height: 200px;
+        margin-left: 206px;
+        margin-top: 239px;
+    }
+    .nav-socialmedia {
+        width: 80px;
+        height: 254px;
+        position: absolute;
+    }
+}
 @media (min-width:436px) and (max-width:770px){
     /* navbar */
     .nav-logo {
         width: 30%;
         height: 78px;
         margin-left: 0px;
+    }
+    .nav-pages a {
+        font-size: 13px;
     }
     .nav-logo img{
         padding: 15px;
@@ -465,7 +487,7 @@ footer{
         width: 75px;
         height: 298px;
         position: absolute;
-        left: -10px;
+        left: -50px;
     }
     /* block 2 */
     .block2-contents{
@@ -584,42 +606,6 @@ footer{
     .mobile-tooltip{
         display: inline;
     }
-    /* .tooltip1{
-        margin-top: 250px;
-        margin-right: 393px;
-    }
-    .tooltip1 img {
-        height: 22px;
-        margin-left: 119px;
-        margin-top: 25px;
-    }
-    .tooltip2{
-        margin-top: 121px;
-        margin-right: 251px;
-    }
-    .tooltip2 img {
-        height: 22px;
-        margin-left: 119px;
-        margin-top: 25px;
-    }
-    .tooltip3 {
-        margin-top: 100px;
-        margin-left: 361px;
-    }
-    .tooltip3 img {
-        height: 22px;
-        margin-top: 24px;
-        margin-left: 30px;
-    }
-    .tooltip4 {
-        margin-top: 200px;
-        margin-left: 97px;
-    }
-    .tooltip4 img {
-        height: 22px;
-        margin-top: 24px;
-        margin-left: 114px;
-    } */
     /* block 5 */
     .block5{
         height: 255px;
