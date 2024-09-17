@@ -401,7 +401,7 @@ footer{
     color: #9D9895;
 }
 .footer-form{
-    width: 320px;
+    width: 360px;
     height: 72px;
     display: flex;
     justify-content: end;
@@ -420,7 +420,7 @@ footer{
     font-weight: 600;
 }
 .footer-form-content{
-    width: 320px;
+    width: 360px;
     height: 72px;
     border-radius: 64px;
     display: flex;
