@@ -775,6 +775,10 @@ footer{
         width: 328px;
         padding: 10px;
     }
+    .block2-group1{
+        min-width: 320px;
+        width: 100%;
+    }
     .block2-contents h3 {
         font-size: 20px;
         line-height: 30px;
@@ -829,6 +833,11 @@ footer{
         width: 220px;
         height: 234px;
     }
+    .block3-card-btn button{
+        width: 138px;
+        height: 39px;
+        font-size: 15px;
+    }
     .block3-card-unblr img{
         width: 100%;
         height: 234px;
@@ -842,8 +851,11 @@ footer{
         width: 280px;
     }
     .block4-container h3 {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 30px;
+    }
+    .block4-btn button{
+        width: 154px;
     }
     .tooltip1{
         display: flex;
@@ -931,9 +943,14 @@ footer{
     }
     .copyrignt2{
         display: block;
+        font-size: 13px;
+        line-height: 19px;
     }
     .copyrignt1{
         display: none;
+    }
+    .footer-links a{
+        font-size: 15px;
     }
     .footer-logo img{
         width: 34px;
@@ -942,6 +959,8 @@ footer{
     }
     .footer-form{
         display: block;
+        min-width: 320px;
+        width: 100%;
         height: 128px;
         padding: 0 15px;
     }
@@ -949,6 +968,10 @@ footer{
         position: relative;
         width: 100%;
         height: 56px;
+    }
+    .footer-group2{
+        min-width: 320px;
+        width: 100%;
     }
     .footer-contents-container {
         width: 100%;
@@ -964,6 +987,10 @@ footer{
     }
     .footer-social{
         text-align: center;
+    }
+    .footer-social img{
+        width: 16px;
+        height: 16px;
     }
     .footer-copyright{
         margin-top: 67px;
