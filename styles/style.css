@@ -70,6 +70,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 139px;
+    gap: 75px;
 }
 .nav-pages a{
     width: 73px;
@@ -221,7 +223,7 @@ nav{
 }
 .block3-card-unblr{
     width: 350px;
-    height: 438px;
+    height: 373px;
 }
 .block3-card-btn{
     display: flex;
@@ -401,7 +403,7 @@ footer{
     color: #9D9895;
 }
 .footer-form{
-    width: 320px;
+    width: 360px;
     height: 72px;
     display: flex;
     justify-content: end;
@@ -420,7 +422,7 @@ footer{
     font-weight: 600;
 }
 .footer-form-content{
-    width: 320px;
+    width: 360px;
     height: 72px;
     border-radius: 64px;
     display: flex;
@@ -454,6 +456,10 @@ footer{
         height: 254px;
         position: absolute;
     }
+    .nav-pages{
+        margin-right: 0px;
+        gap: 0;
+    }
 }
 @media (min-width:436px) and (max-width:770px){
     /* navbar */
@@ -475,6 +481,8 @@ footer{
         justify-content: end;
         align-items: center;
         margin-left: 0px;
+        margin-right: 0px;
+        gap: 0;
     }
     /* block 1 */
     .cheat99 {
