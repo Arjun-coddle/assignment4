@@ -109,7 +109,7 @@ nav{
 }
 .cheat99{
     width: 473px;
-    height: 144px;
+    height: 100px;
     margin-left: 270px;
     margin-top: 239px;
 }
@@ -117,20 +117,40 @@ nav{
     width: 100%;
     object-fit: contain;
 }
+.home-followus{
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    width: 131px;
+    height: 115px;
+    gap: 15px;
+    margin-left: 59px;
+}
+.home-followus h4{
+    font-size: 16px;
+    font-weight: 500;
+    color:#9D9895;
+}
+.home-line{
+    width: 48px;
+    height: 2px;
+    border-bottom: 1px solid #9D9895;
+    position: absolute;
+    top: -14px;
+    right: -18px;
+}
 .nav-socialmedia{
     width: 123px;
     height: 292px;
     position: absolute;
-}
-.nav-socialmedia img{
-    width: 100%;
-    object-fit: contain;
-    margin-left: 110px;
+    display: grid;
 }
 .socialmedia-links img{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     padding: 3px;
+    object-fit: contain;
+    margin-left: 110px;
 }
 /* block 2 */
 .block2{
@@ -141,7 +161,6 @@ nav{
 .block2-container{
     max-width: 1440px;
     width: 100%;
-    height: 406px;
     display: flex;
     justify-content: center;
 }
@@ -185,14 +204,12 @@ nav{
 /* block3 */
 .block3{
     width: 100%;
-    height: 676px;
     display: flex;
     justify-content: center;
 }
 .block3-container{
     max-width: 1440px;
     width: 100%;
-    height: 548px;
     padding: 64px 0px;
 }
 .block3-container h3{
@@ -233,14 +250,12 @@ nav{
 /* block4 */
 .block4{
     width: 100%;
-    height: 821px;
     display: flex;
     justify-content: center;
 }
 .block4-container{
     max-width: 1440px;
     width: 100%;
-    height: 693px;
     padding: 64px 0px;
     text-align: center;
     overflow: hidden;
@@ -331,23 +346,21 @@ nav{
 /* block5 */
 .block5{
     width: 100%;
-    height: 211px;
     display: flex;
     justify-content: center;
 }
 .block5-container{
     max-width: 1440px;
     width: 100%;
-    height: 35px;
     padding: 88px 0px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
 }
 .block-container-split{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
 }
 .sponser{
     width: 100px;
@@ -361,14 +374,12 @@ nav{
 /* footer */
 footer{
     width: 100%;
-    height: 443px;
     display: flex;
     justify-content: center;
 }
 .footer-container{
     max-width: 1440px;
     width: 100%;
-    height: 331px;
     padding: 64px 0px;
 }
 .footer-logo{
@@ -384,6 +395,7 @@ footer{
     margin-top: 105px;
     color: #9D9895;
     font-size: 14px;
+    padding-bottom: 20px;
 }
 .footer-copyright span{ 
     color: #590078;
@@ -431,8 +443,9 @@ footer{
     background: #1B1918;
     border: 0px solid;
     padding-left: 30px;
-    color: aliceblue;
+    color: #fff;
     position: absolute;
+    outline: none;
 }
 .footer-form-content::placeholder{
     color: #fff;
@@ -447,8 +460,8 @@ footer{
 @media (min-width:771px) and (max-width:1024px){
     .cheat99 {
         width: 350px;
-        height: 200px;
-        margin-left: 206px;
+        height: 97px;
+        margin-left: 221px;
         margin-top: 239px;
     }
     .nav-socialmedia {
@@ -489,13 +502,27 @@ footer{
         width: 296px;
         height: 232px;
         margin-left: 20%;
-        margin-top: 239px;
+        margin-top: 266px;
     }
     .nav-socialmedia {
         width: 75px;
         height: 298px;
         position: absolute;
         left: -50px;
+    }
+    .socialmedia-links img {
+        width: 20px;
+        height: 20px;
+    }    
+    .home-followus h4 {
+        font-size: 13px;
+    }
+    .home-followus {
+        width: 85px;
+        margin-left: 79px;
+    }
+    .socialmedia-links{
+        margin-top: -93px;
     }
     /* block 2 */
     .block2-contents{
@@ -526,6 +553,9 @@ footer{
         object-fit: contain;
     }
     /* block 3 */
+    .block3{
+        height: auto;
+    }
     .block3-container h3 {
         font-size: 30px;
     }
@@ -615,13 +645,10 @@ footer{
         display: inline;
     }
     /* block 5 */
-    .block5{
-        height: 255px;
-    }
     .block-container-split {
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 100px;
         flex-wrap: wrap;
     }
     /* footer */
@@ -721,15 +748,44 @@ footer{
     .block1-container{
         display: none;
     }
-    .home-images{
+    .home-images-container{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        height:400px;
+    }
+    .home-images{
+        display: grid;
         justify-content: center;
     }
     .home-social img{
         width: 20px;
+        margin-left: 0;
+    }
+    .home-followus{
+        transform: rotate(90deg);
+        display: flex;
+        align-items: center;
+        width: 131px;
+        height: 115px;
+        gap: 15px;
+        margin-right: 56px;
+    }
+    .home-followus h4{
+        font-size: 12px;
+        font-weight: 500;
+        color:#9D9895;
+    }
+    .home-line{
+        width: 48px;
+        height: 2px;
+        border-bottom: 1px solid #9D9895;
+        position: unset;
     }
     .home-main-img{
         display: flex;
+        justify-content: center;
+        margin-left: 30px;
     }
     .home-main-img h1{
         font-size: 160px;
@@ -737,15 +793,19 @@ footer{
     }
     .home-headset{
         width: 220px;
-        height: 262px;
+        object-fit: contain;
         position: absolute;
-        margin-top: 26px;
+        margin-top: 33px;
     }
     .home-tooltip{
         position: absolute;
         margin-left: 157px;
         margin-top: 21px;
         z-index: 1;
+    }
+    .home-social{
+        position: absolute;
+        left: -86px;
     }
     .home-tooltip img{
         width: 95px;
@@ -765,6 +825,15 @@ footer{
     }
     .socialmedia-links{
         display: grid;
+        justify-content: center;
+    }
+    .home-buynow-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .home-buynow-btn button{
+        width: 154px;
+        font-size: 15px;
     }
     /* block 2 */
     .block2-img{
@@ -808,10 +877,11 @@ footer{
     }
     /* block 3 */
     .block3{
-        height: 540px;
+        height: auto;
     }
     .block3-container{
         overflow: hidden;
+        height: auto;
     }
     .block3-container h3 {
         font-size: 20px;
@@ -844,9 +914,6 @@ footer{
         object-fit: contain;
     }
     /* block 4 */
-    .block4{
-        height: 669px;
-    }
     .block4-headset-img img{
         width: 280px;
     }
@@ -922,9 +989,6 @@ footer{
         font-size: 10px;
     }
     /* block 5 */
-    .block5{
-        height: 255px;
-    }
     .block-container-split {
         display: grid;
         justify-content: center;
@@ -933,7 +997,6 @@ footer{
     /* footer */
     .footer-container{
         padding: 64px 15px;
-        height: 606px;
     }
     .footer-logo{
         display: block;
