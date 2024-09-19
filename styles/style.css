@@ -108,9 +108,9 @@ nav{
     align-items: center;
 }
 .cheat99{
-    width: 473px;
-    height: 100px;
-    margin-left: 270px;
+    width: 554px;
+    height: 110px;
+    margin-left: 320px;
     margin-top: 239px;
 }
 .cheat99 img{
@@ -122,9 +122,9 @@ nav{
     display: flex;
     align-items: center;
     width: 131px;
-    height: 115px;
+    height: 81px;
     gap: 15px;
-    margin-left: 59px;
+    margin-left: 106px;
 }
 .home-followus h4{
     font-size: 16px;
@@ -136,8 +136,8 @@ nav{
     height: 2px;
     border-bottom: 1px solid #9D9895;
     position: absolute;
-    top: -14px;
-    right: -18px;
+    top: -73px;
+    right: -4px;
 }
 .nav-socialmedia{
     width: 123px;
@@ -145,12 +145,19 @@ nav{
     position: absolute;
     display: grid;
 }
+.socialmedia-links{
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    gap: 9px;
+    margin-top: 122px;
+    margin-left: 160px;
+}
 .socialmedia-links img{
     width: 24px;
     height: 24px;
     padding: 3px;
     object-fit: contain;
-    margin-left: 110px;
 }
 /* block 2 */
 .block2{
