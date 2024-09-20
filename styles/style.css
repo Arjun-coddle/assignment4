@@ -1033,7 +1033,7 @@ footer{
     }
     /* footer */
     .footer-container{
-        padding: 64px 15px;
+        padding: 64px 15px 0px 15px;
     }
     .footer-logo{
         display: block;
