@@ -466,10 +466,9 @@ footer{
 }
 @media (min-width:771px) and (max-width:1024px){
     .cheat99 {
-        width: 350px;
-        height: 97px;
-        margin-left: 221px;
-        margin-top: 239px;
+        width: 380px;
+        height: 94px;
+        margin-left: 229px;
     }
     .nav-socialmedia {
         width: 80px;
@@ -480,6 +479,26 @@ footer{
         margin-right: 0px;
         gap: 0;
     }
+    .home-followus{
+        margin-left: 55px;
+        height: 198px;
+    }
+    .home-line{
+        top: 22px;
+        right: 35px;
+        width: 41px;
+    }
+    .home-followus h4 {
+        font-size: 12px;
+    }
+    .socialmedia-links img {
+        width: 20px;
+    }
+    .socialmedia-links {
+        gap: 0px;
+        margin-top: 128px;
+        margin-left: 111px;
+    }    
 }
 @media (min-width:436px) and (max-width:770px){
     /* navbar */
@@ -506,10 +525,10 @@ footer{
     }
     /* block 1 */
     .cheat99 {
-        width: 296px;
-        height: 232px;
-        margin-left: 20%;
-        margin-top: 266px;
+        width: 276px;
+        height: 242px;
+        margin-left: 137px;
+        margin-top: 268px;
     }
     .nav-socialmedia {
         width: 75px;
@@ -518,18 +537,29 @@ footer{
         left: -50px;
     }
     .socialmedia-links img {
-        width: 20px;
-        height: 20px;
+        width: 17px;
+        height: 17px;
     }    
     .home-followus h4 {
-        font-size: 13px;
+        font-size: 8px;
     }
     .home-followus {
         width: 85px;
-        margin-left: 79px;
+        margin-left: 69px;
+        margin-top: 46px;
+    }
+    .home-line {
+        width: 29px;
+        top: -17px;
+        right: 14px;
     }
     .socialmedia-links{
-        margin-top: -93px;
+        gap: 0px;
+        margin-top: 115px;
+        margin-left: 103px;
+    }
+    .socialmedia-links a{
+        height: 18px;
     }
     /* block 2 */
     .block2-contents{
@@ -774,7 +804,7 @@ footer{
         display: flex;
         align-items: center;
         width: 131px;
-        height: 115px;
+        height: 0px;
         gap: 15px;
         margin-right: 56px;
     }
@@ -812,7 +842,7 @@ footer{
     }
     .home-social{
         position: absolute;
-        left: -86px;
+        left: -130px;
     }
     .home-tooltip img{
         width: 95px;
@@ -831,8 +861,8 @@ footer{
         z-index: 1;
     }
     .socialmedia-links{
-        display: grid;
-        justify-content: center;
+        margin-top: 69px;
+        gap: 0;
     }
     .home-buynow-btn{
         display: flex;
